@@ -9,4 +9,4 @@ The simulator outputs the timing information for each dynamic instruction in the
 <seq_no> fu{\<op_type\>} src{\<src1\>,\<src2\>} dst{\<dst\>} FE{\<begin-cycle\>,\<duration\>} DE{…} RN{…} RR{…} DI{…} IS{…} EX{…} WB{…} RT{…} (\<seq_no\> is the line number in trace).
 
 Command-line arguments to the simulator:
-sim \<ROB_SIZE\> \<IQ_SIZE\> \<WIDTH\> \<tracefile\> (where ROB_SIZE is the size of the ROB in bytes, IQ_SIZE is the size of the Issue Queue in bytes, WIDTH is the superscalar width of the processor i.e. the amount of instrcutions the processor can fetch in one cycle).
+- sim \<ROB_SIZE\> \<IQ_SIZE\> \<WIDTH\> \<tracefile\> (where ROB_SIZE is the size of the ROB in bytes, IQ_SIZE is the size of the Issue Queue in bytes, WIDTH is the superscalar width of the processor i.e. the amount of instrcutions the processor can fetch in one cycle).
